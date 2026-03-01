@@ -1,0 +1,15 @@
+/* To inmplement background image in the body tag */
+body{
+    background-image: url('free-nature-images.jpg');
+    background-repeat: repeat-x;;
+}
+/* The marging and padding is auto for the whole page*/
+*{
+    margin: auto;
+    padding: auto;
+}
+/*To make the text color of the header text black*/
+header{
+    color: #211313;
+
+}
