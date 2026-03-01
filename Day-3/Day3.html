@@ -3,85 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <title>WebScaffold - Simple Learning Platform</title>
+    <style>
+        #sp{
+             color: #ac521a;
+        }
+        .cla{
+            border: 3px solid red;
+            margin: auto;
+            padding: 10px;
+        }
+    </style>
+    
 </head>
 
-<body>
-
-    <!-- ================= HEADER ================= -->
-    <header style="background-color: rgb(107, 202, 234); padding: 15px;">
+<body style="background-color: antiquewhite;">
+    <header style="background-color: #89c7db; text-align: center;">
         <h1>WebScaffold</h1>
-        <p style="color: rgb(188, 36, 36);">Great for an educational landing page</p>
-    </header>
-
-    <!-- ================= NAVIGATION ================= -->
-    <nav style="background-color: #eee; padding: 10px;">
-        <a href="#">Home</a> |
-        <a href="#">Courses</a> |
-        <a href="#">Contact</a>
+        <p style="color: #bc2424;">Great for an educational landing page</p>
+        <nav>
+        <a href="#">Home</a> 
+        <a href="#">About us</a>
+        <a href="#">More details</a>
     </nav>
+    </header>
+    <hr>
+    <section>
 
-    <!-- ================= MAIN SECTION ================= -->
-    <section id="main-learning">
+        <h2>This is the section</h2>
 
-        <h2>Welcome to Our Learning Platform</h2>
-
-        <!-- Block vs Inline Demonstration -->
         <p>
-            This platform provides <b>structured courses</b> for beginners.
-            You can explore <span style="color: green;">HTML fundamentals</span>,
-            visit our <a href="#">documentation page</a>,
-            and build real-world projects step by step.
+            As required a this is a paragraph tag. <span id="sp">The span tag is used.</span><a href="https://www.google.com/">For anchor tag</a>
+            <b>This sentence is using bold tag</b>
         </p>
 
-        <!-- Div as Container - Course Boxes -->
-        <div class="course-box" style="border: 1px solid black; padding: 10px; margin: 10px 0;">
-            <h3>HTML Basics Course</h3>
-            <p>Learn the structure of web pages using semantic HTML elements.</p>
-            <a href="#">Start Learning</a>
+        <div class="cla">
+            <h3>1st box using div</h3>
+            <p>The required paragraph.</p>
+            <a href="https.">Click here</a>
         </div>
 
-        <div class="course-box" style="border: 1px solid black; padding: 10px; margin: 10px 0;">
-            <h3>CSS Introduction Course</h3>
-            <p>Understand styling, layout, and the box model concepts.</p>
-            <a href="#">Start Learning</a>
+        <div class="cla">
+            <h3>2nd box using div</h3>
+            <p>The required paragraph.</p>
+            <a href="https.">Contact</a>
         </div>
+        </section>
+        <hr>
 
-        <!-- Video -->
-        <h3>Platform Introduction Video</h3>
+        <h3>The video using video control tag</h3>
         <video width="320" height="240" controls>
             <source src="16435017-hd_1080_1920_25fps.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
+        <hr>
 
-        <!-- Audio -->
-        <h3>Welcome Audio Message</h3>
-        <audio controls>
-            <source src="welcome.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
+        <h3>Youtube video using iframe</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ts0mU1_fQVA?si=tkt7VZQDZAJEMWuI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <hr>
 
-        <!-- YouTube Iframe -->
-        <h3>Featured YouTube Lesson</h3>
-        <iframe width="560" height="315"
-            src="https://www.youtube.com/embed/dD2EISBDjWM"
-            title="YouTube video player"
-            frameborder="0"
-            allowfullscreen>
-        </iframe>
-
-    </section>
-
-    <!-- ================= FOOTER ================= -->
-    <footer style="background-color: lightgray; padding: 10px; margin-top: 20px;">
-        <p>&copy; 2026 LearnHub. All Rights Reserved.</p>
-        <p>Contact: support@learnhub.com</p>
+    <footer style="background-color: #e77408;">
+        <p>&copy; 2026 Rafi</p>
+        <p>For more information call: 012345567 <br>or <a href="#">Click here</a></p>
     </footer>
-
-    <!-- ================= SCRIPT ================= -->
-    <script>
-        console.log("Welcome to LearnHub Learning Platform!");
-        alert("Welcome to LearnHub!");
-    </script>
 
 </body>
 </html>
